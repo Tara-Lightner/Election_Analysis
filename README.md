@@ -1,6 +1,6 @@
 # Election Analysis
 
-## Overview of Project
+## Overview of Election Audit Project
 This project demonstrates mastery of Python through: 
 - Creating scripts using VSCode and using the command line that read, writes, and stores data from files or in arrays.
 - Perform mathematical operations, utilizing knowledge of variables, arrays, conditionals, Boolean, and loops.
@@ -10,7 +10,7 @@ This project demonstrates mastery of Python through:
 
 
 
-## Background
+## Background/ Application for Use
 This project represents a simulation in which, a client and the Board of Elections employee, needed assistance in an election audit tabulating an election of a Congressional district.  They were previously using excel and wanted to automate the process.  The assignment was accepted to help automate the reporting process and create a certified vote count report using Python. The big goal is to use this pilot code and test it, before explaining it to other congressional districts, senatorial districts, and local elections.  The client originally requested the report to include the following:
 
 - The total number of votes cast
@@ -25,18 +25,59 @@ This project represents a simulation in which, a client and the Board of Electio
 
 ## Deliverables
 - Election Results Printed from Command Line (Git Bash)
+![Election Results through command line: this file can be found in Election_Analysis/analysis/Deliverable_1_Election_Results_Command Line.PNG] (https://github.com/Tara-Lightner/Election_Analysis/blob/main/analysis/Deliverable_1_Election_Results_Command%20Line.PNG)
 - Election Results Saved to a Text File (election_analysis.txt)
+![Election Results saved as a text file: this file can be found in Election_Analysis/analysis/Deliverable_2_Election_Results_Text_File.PNG] (https://github.com/Tara-Lightner/Election_Analysis/blob/main/analysis/Deliverable_2_Election_Results_Text_File.PNG)
 - This Written Analysis of the Election Audit
 
 ## Conclusion
-### Analysis
+### Results: Election Outcome Analysis
+How many votes were cast in this congressional election?
+- 369,711 district votes cast for this congressional election.
+What was the breakdown of the number of votes and the percentage of total votes for each county in the precinct; Which county had the largest number of votes?
+- **County Makeup: Vote Count & Percentage of Total**
+  - *<u>**Denver**, with the largest county turnout, </u> cast a county total of 306,055 making up 82.8% of the total district votes.
+   - **Jefferson** cast a county total of 38,885 votes making up 10.5% of the total votes casted 
+   - **Arapahoe** cast a county total of 24,801 votes making up 6.7% of the total district votes.
+Provide a breakdown of the number of votes and the percentage of the total votes each candidate received; Which candidate won the election, what was their vote count, and what was their percentage of the total votes?
+- **Canidate Summary: Percentage and Count**
+  - <u>**Diana DeGette**, election winner</u>, recieving 73.8% of total votes, consisting of 272,892 votes
+  - **Charles Casper Stockham** recieved 23.0% of total votes, made up of 85,213 votes
+  - **Raymon Anthony Doane** recieved 3.1% of total votes, made up of 11,606 votes
+
+### A statement to the election commision
+This code can be used to expand to other congressional districts, senatorial districts, and local elections.  As we know your team is familiar with excel, you will be able to successfully get this process to automat for you moving forward.  You will simply need to create a CSV file that inculdes the assocaite county and candaidate for each voter.  As shown in ![the Resource folder named election_results](https://github.com/Tara-Lightner/Election_Analysis/blob/main/Resources/election_results.csv) .This file will act as the input for the coding.  So as you will be able to continue to use this for your district for future years as candiadates chang and expand this process to other districs simply by utilizing the excel csv files you already create every election and keeping a few consistant pieces of formating, including:
+ - Keeping the file you will be executing in the same folder
+ - Moving the old file out of the folder
+ - Replacing a new file with the same name that Python will use to execute the report
+ - Make sure to include the follwoing columns, with correct titles, in the correct order
+   - Keep your Ballot ID labled in column A
+   - County in column B, and 
+   - Candidate in column C.
+To demponstarte that you are currently capable of utilizing this for any combination of counties and candidates for any election allow me to provide you a few examples.
+### A Couple Examples:
+
+##### Example 1:  As we know candadates are likely to change.  Here is an example of your district with new candaidates.
+
+##### Example 2: As more districts will want to take advantage of this report automation, here is an example of putting in new counties for another district.
+
+#### 
+
+
+
+
 
 
 ### Challenges and Difficulties Encountered
+There were many challenges and lessons learned along the way.  One of my biggest frustrations was trying to run my code inside VSCode using the play button vs. trying to launch it from the command line.  I had to change my file path code back and forth to get it to either run using the play button because it was launching from a folder in a higher level and not from where my python script was located. I thought I had to make it work for both to get the assignment done correctly.  I even tried using a directy path, but this did not resolve it.  I think the error was that I had my VSCode opened from my MSU folder which is the overarching folder I have all my bootcamp work in.
+Another issue that I had was in decided to use the literal code that was offered in the challenge_starter_code or to get the output to format the way the challenge was requesting it.  Bellow is an image of the formating for the results requirements:
+![Required Print Statment Output Solution](https://github.com/Tara-Lightner/Election_Analysis/blob/main/analysis/Module3_Requirement_Challenge_election_results_Print_Statement.png)
+
 
 ### Results
 
 - What are some limitations of this dataset?
+One thing I found interesting is that this assignment was supposed to essentailly be a piolt test with the hopes that this would go on to other districts.  Althought the general outline will be helpful and much of the code could be reused it would take additional work to add in new distircts and candidates.
 
 - What are some other possible ways we could have accomplised the saem results?
 
