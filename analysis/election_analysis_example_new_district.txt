@@ -1,0 +1,27 @@
+Election Results
+-------------------------
+Total Votes: 369,711
+-------------------------
+
+County Votes:
+Magic Kingdom 10.5% (38,855)
+Disney World 82.8% (306,055)
+Disney Land 6.7% (24,801)
+
+-------------------------
+Largest County Turnout: Disney World
+-------------------------
+
+Mickey Mouse 23.0% (85,213)
+
+
+Daisy Duck 73.8% (272,892)
+
+
+Goofy 3.1% (11,606)
+
+-------------------------
+Winner: Daisy Duck
+Winning Vote Count: 272,892
+Winning Percentage: 73.8%
+-------------------------
