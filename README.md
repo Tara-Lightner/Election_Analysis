@@ -25,9 +25,9 @@ This project represents a simulation in which, a client and the Board of Electio
 
 ## Deliverables
 - Election Results Printed from Command Line (Git Bash)
-![Election Results through command line: this file can be found in Election_Analysis/analysis/Deliverable_1_Election_Results_Command Line.PNG] (https://github.com/Tara-Lightner/Election_Analysis/blob/main/analysis/Deliverable_1_Election_Results_Command%20Line.PNG)
+![Election Results through command line: this file can be found in Election_Analysis/analysis/Deliverable_1_Election_Results_Command Line.PNG](https://github.com/Tara-Lightner/Election_Analysis/blob/main/analysis/Deliverable_1_Election_Results_Command%20Line.PNG)
 - Election Results Saved to a Text File (election_analysis.txt)
-![Election Results saved as a text file: this file can be found in Election_Analysis/analysis/Deliverable_2_Election_Results_Text_File.PNG] (https://github.com/Tara-Lightner/Election_Analysis/blob/main/analysis/Deliverable_2_Election_Results_Text_File.PNG)
+![Election Results saved as a text file: this file can be found in Election_Analysis/analysis/Deliverable_2_Election_Results_Text_File.PNG](https://github.com/Tara-Lightner/Election_Analysis/blob/main/analysis/Deliverable_2_Election_Results_Text_File.PNG)
 - This Written Analysis of the Election Audit
 
 ## Conclusion
@@ -46,39 +46,35 @@ Provide a breakdown of the number of votes and the percentage of the total votes
   - **Raymon Anthony Doane** recieved 3.1% of total votes, made up of 11,606 votes
 
 ### A statement to the election commision
-This code can be used to expand to other congressional districts, senatorial districts, and local elections.  As we know your team is familiar with excel, you will be able to successfully get this process to automat for you moving forward.  You will simply need to create a CSV file that inculdes the assocaite county and candaidate for each voter.  As shown in ![the Resource folder named election_results](https://github.com/Tara-Lightner/Election_Analysis/blob/main/Resources/election_results.csv) .This file will act as the input for the coding.  So as you will be able to continue to use this for your district for future years as candiadates chang and expand this process to other districs simply by utilizing the excel csv files you already create every election and keeping a few consistant pieces of formating, including:
- - Keeping the file you will be executing in the same folder
- - Moving the old file out of the folder
- - Replacing a new file with the same name that Python will use to execute the report
+As is the script created for you has been a successful demonstration of report creation and can be used to expand to other congressional districts, senatorial districts, and local elections with minimal work on your teams end.  As we have disscussed your team is familiar with excel and uses CSV files regularly as the mechanisim to capture total votes from all sources.  Using this file as an input you will be able to successfully and quicky automate the certified report creation process.  On my computer I was able to do so in roughly to minets.  
+
+What will you need to create future reports? 
+
+As you will be able to continue to use this script for your district for future years, as candiadates change, and other districts adopt this process minimal traing will be needed. The few steps one needs to prep the CSV file to run the script on include:
+ - Storing the file you will be executing in the correctly named and properly organized folder.
+ - Moving the old file out of the folder, storing it elsewhere.
+ - Replacing the file desired to be turned into a report and use the correct file name.
  - Make sure to include the follwoing columns, with correct titles, in the correct order
-   - Keep your Ballot ID labled in column A
-   - County in column B, and 
-   - Candidate in column C.
+   - Column A: Ballot ID
+   - Column B: County
+   - Column C: Candidate
 To demponstarte that you are currently capable of utilizing this for any combination of counties and candidates for any election allow me to provide you a few examples.
 ### A Couple Examples:
 
 ##### Example 1:  As we know candadates are likely to change.  Here is an example of your district with new candaidates.
+![](https://github.com/Tara-Lightner/Election_Analysis/blob/main/analysis/election_analysis_Example_New_Candidates.txt)
 
 ##### Example 2: As more districts will want to take advantage of this report automation, here is an example of putting in new counties for another district.
-
-#### 
-
-
-
-
-
+![](https://github.com/Tara-Lightner/Election_Analysis/blob/main/analysis/election_analysis_example_new_district.txt)
 
 ### Challenges and Difficulties Encountered
-There were many challenges and lessons learned along the way.  One of my biggest frustrations was trying to run my code inside VSCode using the play button vs. trying to launch it from the command line.  I had to change my file path code back and forth to get it to either run using the play button because it was launching from a folder in a higher level and not from where my python script was located. I thought I had to make it work for both to get the assignment done correctly.  I even tried using a directy path, but this did not resolve it.  I think the error was that I had my VSCode opened from my MSU folder which is the overarching folder I have all my bootcamp work in.
-Another issue that I had was in decided to use the literal code that was offered in the challenge_starter_code or to get the output to format the way the challenge was requesting it.  Bellow is an image of the formating for the results requirements:
+There were many challenges and lessons learned along the way.  One of my biggest frustrations was trying to run my code inside VSCode using the play button vs. trying to launch it from the command line.  I had to change my file path code back and forth to get it to either run using the play button because it was launching from a folder in a higher level and not from where my python script was located. I thought I had to make it work for both to get the assignment done correctly.  I even tried using a directy path, but this did not resolve it.  I think the error was that I had my VSCode opened from my MSU folder which is the overarching folder I have all my bootcamp work in.  
+####
+#### Another issue that I had was in decided to use the provided code from the challenge_starter_code or to get the output to format both the Print Statement and the election analysis txt the same way.  Bellow are the image of the formating for the results requirements:
 ![Required Print Statment Output Solution](https://github.com/Tara-Lightner/Election_Analysis/blob/main/analysis/Module3_Requirement_Challenge_election_results_Print_Statement.png)
-
-
-### Results
-
-- What are some limitations of this dataset?
-One thing I found interesting is that this assignment was supposed to essentailly be a piolt test with the hopes that this would go on to other districts.  Althought the general outline will be helpful and much of the code could be reused it would take additional work to add in new distircts and candidates.
-
-- What are some other possible ways we could have accomplised the saem results?
+vs. The Required Output for the Election Analysis Text File: 
+![Required Text File Output with different formating](https://github.com/Tara-Lightner/Election_Analysis/blob/main/analysis/Module3_Requirement_Challenge_election_results_txt_Results.png)
+####
+#### In general the lack of continuity was bother some in the reporting.  Why would there be a title for County Votes, but not for Candidate Results. Additionly, why would one secion be single lined and the other double lined.   The largest count is titled about the county section, yet the winner bellow the candidate section.  It is redundant to print the same specs for the winning canidate twice.  The space could have been used better.
 
 
