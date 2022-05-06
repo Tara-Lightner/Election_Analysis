@@ -27,7 +27,7 @@ This project represents a simulation in which, a client and the Board of Electio
 ![Election Results through command line: this file can be found in Election_Analysis/analysis/Deliverable_1_Election_Results_Command Line.PNG](https://github.com/Tara-Lightner/Election_Analysis/blob/main/analysis/Deliverable_1_Election_Results_Command%20Line.PNG)
 - Election Results Saved to a Text File (election_analysis.txt)
 ![Election Results saved as a text file: this file can be found in Election_Analysis/analysis/Deliverable_2_Election_Results_Text_File.PNG](https://github.com/Tara-Lightner/Election_Analysis/blob/main/analysis/Deliverable_2_Election_Results_Text_File.PNG)
-- This Written Analysis of the Election Audita
+- This Written Analysis of the Election Audit
 
 ## Conclusion
 ### Results: Election Outcome Analysis
