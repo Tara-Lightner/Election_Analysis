@@ -45,7 +45,7 @@ Provide a breakdown of the number of votes and the percentage of the total votes
   - **Raymon Anthony Doane** received 3.1% of total votes, made up of 11,606 votes
 
 ### A statement to the election commission
-As is the script created for you has been a successful demonstration of report creation and can be used to expand to other congressional districts, senatorial districts, and local elections with minimal work on your teams’ end.  As we have discussed your team is familiar with excel and uses CSV files regularly as the mechanism to capture total votes from all sources.  Using this file as an input you will be able to successfully and quickly automate the certified report creation process.  On my computer, I was able to do so in roughly two minutes.  
+The script created per you request has been a successful demonstration of report creation.  Additionally, it can be used other certified voteing reprots to other congressional districts, senatorial districts, and local elections with minimal work on your teams’ end.  As we have discussed your team currenlty uses excel and CSV files regularly as the mechanism to capture total votes from all sources.  Now with the scope of work your team already does, the reusable script I have created and a few small details needed for excel and CSV execution Using this file you will be able to successfully and quickly automate the certified report creation process.  On my computer, I was able to do so in roughly two minutes.  
 
 What will you need to create future reports? 
 
