@@ -23,11 +23,11 @@ This project represents a simulation in which, a client and the Board of Electio
 - The county with the highest turnout
 
 ## Deliverables
-- Election Results Printed from Command Line (Git Bash)
+- Election Results Printed from Command Line (Git Bash) Pictured Below
 ![Election Results through command line: this file can be found in Election_Analysis/analysis/Deliverable_1_Election_Results_Command Line.PNG](https://github.com/Tara-Lightner/Election_Analysis/blob/main/analysis/Deliverable_1_Election_Results_Command%20Line.PNG)
-- Election Results Saved to a Text File (election_analysis.txt)
-![Election Results saved as a text file: this file can be found in Election_Analysis/analysis/Deliverable_2_Election_Results_Text_File.PNG](https://github.com/Tara-Lightner/Election_Analysis/blob/main/analysis/Deliverable_2_Election_Results_Text_File.PNG)
-- This Written Analysis of the Election Audit
+- Election Results Saved to a Text File (election_analysis.txt) Pictured Below
+![Election Results saved as a text file: this file can be found in Election_Analysis/analysis/Deliverable_2_Election_Results_Text_File.PNG](https://github.com/Tara-Lightner/Election_Analysis/blob/main/Resources/Ex_New_Candidates.PNG)
+- The following Written Analysis of the Election Audit
 
 ## Conclusion
 ### Results: Election Outcome Analysis
@@ -62,21 +62,24 @@ To demonstrate that you are currently capable of utilizing this for any combinat
 
 ##### Example 1:  As we know candidates are likely to change.  Here is an example of your district with new candidates.
 
-![New_Candidates.PNG](Resources%5CEx_New_Candidates.PNG)
-![alt](https://github.com/Tara-Lightner/Election_Analysis/blob/main/analysis/election_analysis_Example_New_Candidates.txt)
+![New_Candidates.PNG](https://github.com/Tara-Lightner/Election_Analysis/blob/main/Resources/Ex_New_Candidates.PNG)
 
 ##### Example 2: As more districts will want to take advantage of this report automation, here is an example of putting in new counties for another district.
-![New_District.PNG](Resources%5CEx_New_District.PNG)
+![New_District.PNG](https://github.com/Tara-Lightner/Election_Analysis/blob/main/Resources/Ex_New_District.PNG)
 
 ### Challenges and Difficulties Encountered
 There were many challenges and lessons learned along the way.  One of my biggest frustrations was trying to run my code inside VSCode using the play button vs. trying to launch it from the command line.  I had to change my file path code back and forth to get it to run using the play button because it was launching from a folder at a higher level and not from where my python script was located. I thought I had to make it work for both deliverables to get the assignment done correctly.  I even tried using a direct path, but this did not resolve it.  I think the error was that I had my VSCode opened from my MSU folder which is the overarching folder I have all my boot camp work in.  
 ####
-#### Another issue that I had was in deciding to use the provided code from the challenge_starter_code or to get the output to format both the Print Statement and the election analysis txt the same way.  Below is the image of the formatting for the results requirements:
+#### 
+Another issue that I had was in deciding to use the provided code from the challenge_starter_code or to get the output to format both the Print Statement and the election analysis txt the same way.  Below is the image of the formatting for the results requirements:
+![Election_Analysis/Resources/Original_Varied_Spacing.PNG](https://github.com/Tara-Lightner/Election_Analysis/blob/main/Resources/Original_Varied_Spacing.PNG)
 ![Required Print Statement Output Solution](https://github.com/Tara-Lightner/Election_Analysis/blob/main/analysis/Module3_Requirement_Challenge_election_results_Print_Statement.png)
-vs. The Required Output for the Election Analysis Text File: 
+vs. The Required Output for the Election Analysis Text File, which needed a different code to format consistantly with output and printing.  Below is an example is the coding change that created this:
+![Election_Analysis/Resources/Maintain_Same_Spacing.PNG](https://github.com/Tara-Lightner/Election_Analysis/blob/main/Resources/Maintain_Same_Spacing.PNG)
 ![Required Text File Output with different formating](https://github.com/Tara-Lightner/Election_Analysis/blob/main/analysis/Module3_Requirement_Challenge_election_results_txt_Results.png)
 ####
-#### In general, the lack of continuity was bothersome in the reporting.  Why would there be a title for County Votes, but not for Candidate Results? Additionally, why would one section be single-lined and the other double-lined.   The largest count is titled about the county section, yet the winner is below the candidate section.  It is redundant to print the same specs for the winning candidate twice.  The space could have been used better.
+#### 
+In general, the lack of continuity was bothersome in the reporting.  Why would there be a title for County Votes, but not for Candidate Results? Additionally, why would one section be single-lined and the other double-lined.   The largest count is titled about the county section, yet the winner is below the candidate section.  Redundancy is found as the ouput called to print the same specs for the winning candidate twice.  The actual report could have been a bit more impactful if done differently.
 
 
 
