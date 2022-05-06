@@ -61,10 +61,12 @@ To demonstrate that you are currently capable of utilizing this for any combinat
 ### A Couple Examples:
 
 ##### Example 1:  As we know candidates are likely to change.  Here is an example of your district with new candidates.
+
+![New_Candidates.PNG](Resources%5CEx_New_Candidates.PNG)
 ![alt](https://github.com/Tara-Lightner/Election_Analysis/blob/main/analysis/election_analysis_Example_New_Candidates.txt)
 
 ##### Example 2: As more districts will want to take advantage of this report automation, here is an example of putting in new counties for another district.
-![alt](https://github.com/Tara-Lightner/Election_Analysis/blob/main/analysis/election_analysis_example_new_district.txt)
+![New_District.PNG](Resources%5CEx_New_District.PNG)
 
 ### Challenges and Difficulties Encountered
 There were many challenges and lessons learned along the way.  One of my biggest frustrations was trying to run my code inside VSCode using the play button vs. trying to launch it from the command line.  I had to change my file path code back and forth to get it to run using the play button because it was launching from a folder at a higher level and not from where my python script was located. I thought I had to make it work for both deliverables to get the assignment done correctly.  I even tried using a direct path, but this did not resolve it.  I think the error was that I had my VSCode opened from my MSU folder which is the overarching folder I have all my boot camp work in.  
